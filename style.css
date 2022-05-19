@@ -1,0 +1,42 @@
+.bg-purple{
+    background-color: #8654e2;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6D47B2;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .65) 0%, rgba(0,0,0,.50) 100% to right, rgb(108, 28, 205), rgb(99, 156, 255));
+}
+
+i{
+    font-size: 25px;
+    color: #000000;
+}
+
+.icons{
+    color: #6D47B2;
+}
+
+#socialNetworks{
+    margin: 5vh 0;
+    padding: 0 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social--burbble{
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    width: fit-content !important;
+    border-radius: 30px;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.5);
+}
+
+.social--burbble:hover{
+    transform: scale(105%);
+}
+
