@@ -126,13 +126,9 @@ function setIcons(tecnologias){
     return icons;
 }
 
-function show(){
-    document.getElementById("description").style.display = '';
-}
 
 document.addEventListener("DOMContentLoaded", function(e){
     setYearIdentifier();
     setSocialNetworksInHTML();
     setProyectosDesarrollados();
 });
-
