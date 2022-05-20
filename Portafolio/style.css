@@ -3,20 +3,16 @@
 }
 
 .gradient-custom {
-    background: linear-gradient(to right, #8654e2, rgb(99, 156, 255));
-}
-
-.navbar-brand{
-    margin-left: 15px;
+    /* fallback for old browsers */
+    background: #6D47B2;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, .65) 0%, rgba(0,0,0,.50) 100% to right, rgb(108, 28, 205), rgb(99, 156, 255));
 }
 
 i{
     font-size: 25px;
     color: #000000;
-}
-
-header{
-    margin-bottom: 45px;
 }
 
 .icons{
@@ -44,14 +40,3 @@ header{
     transform: scale(105%);
 }
 
-img{
-    width: 70px;
-    height: 200px;
-}
-
-.text-color-white{
-    color:#fff;
-    font-size: 14px;
-    text-align: justify;
-    padding: 30px;
-}
